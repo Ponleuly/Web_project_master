@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #e74c3c;
+    margin: 0;
+    padding: 0;
+}
+h3.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: #e74c3c;
+    background-color: white;
+    border-radius: 35px;
+    padding: 5px;
+    width: 30%;
+    margin: 5% 35%;
+   
+}
+.wrapper{
+    padding: 20px;
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+    border: 0;
+    background-color: white;
+}
+ul.admin_list {
+    padding: 5px;
+    margin-left: 18%;
+    list-style: none;
+}
+ul.admin_list li a {
+    float: left;
+    margin: 0 10px;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;   
+    border-bottom: 2px solid #e74c3c ;
+    color: #e74c3c;;
+}
+
+ul.admin_list li,a{
+    text-decoration: none;
+    border-radius: 25px;
+}
+ul.admin_list li.active a {
+    background-color: #e74c3c;
+    color: white;
+}
+.admin_list li:hover a{
+    background-color: #e74c3c;
+    color: white;
+}
+
+.clear{
+	clear: both;
+}
+h4 {
+    border-left: 5px solid  #e74c3c;
+    width: fit-content;
+    padding: 10px;
+  
+  
+}
+/*--------------------Quan ly danh muc san pham/ Quan ly san pham / Quan ly don hang---------------------*/
+/*----------------liet ke------------------*/
+.product_list {
+    border-collapse: collapse;
+    width: 100%;
+}
+.product_list th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.product_list th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+}
+.product_list tr:nth-child(even){background-color: #f2f2f2;}
+
+.product_list tr:hover {background-color: #ddd;}
+
+/*-------------Them-----------------------*/
+.product_add {
+    width: 50%;
+    border: 1px solid black;
+}
+.product_add th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+}
+.product_add input[type=submit]{
+    background-color: #e74c3c;
+    color: white;
+    border: 0 solid;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+.product_add .block td{
+    border: 0 solid;
+}
+.product_add input[type=submit]:hover{
+    background-color: #1ed760;
+    color: black;
+}
+
+/*---------------------- Delete button ------------*/
+a.delete{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: 0 solid;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 15px;
+}
